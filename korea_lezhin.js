@@ -46,7 +46,6 @@
     $('.bl_download').click( async (e) => {
         e.preventDefault();
 
-        updateProgress(0, 'Downloading(下載中)...');
         const manhuaName = document.getElementsByClassName("vh__title")[0].innerText;
 
         const zip = new JSZip;
